@@ -1,4 +1,4 @@
-package Command.RealLifeExample.Receivers;
+package Facade.Service;
 
 public class ShippingService {
     public void scheduleShipping(String orderId, String shippingAddress) {

@@ -1,4 +1,4 @@
-package Command.RealLifeExample.Receivers;
+package Facade.Service;
 
 public class InventoryService {
     public boolean checkStock(String productId, int quantity) {
@@ -11,4 +11,3 @@ public class InventoryService {
         System.out.println("Updating stock for product " + productId + " by " + quantity);
     }
 }
-
