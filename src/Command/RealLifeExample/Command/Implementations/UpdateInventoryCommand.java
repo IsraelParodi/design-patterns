@@ -16,7 +16,7 @@ public class UpdateInventoryCommand implements Command {
 
     @Override
     public void execute() {
-        inventoryService.updateInventory(productId, quantity);
+        inventoryService.updateStock(productId, quantity);
     }
 
     @Override

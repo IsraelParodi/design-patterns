@@ -10,5 +10,9 @@ public class InventoryService {
     public void updateStock(String productId, int quantity) {
         System.out.println("Updating stock for product " + productId + " by " + quantity);
     }
+
+    public void undoUpdateInventory(String productId) {
+        System.out.println("Undo stock update for product " + productId);
+    }
 }
 

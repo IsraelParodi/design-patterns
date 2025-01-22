@@ -8,4 +8,8 @@ public class ShippingService {
     public void generateShippingLabel(String orderId) {
         System.out.println("Generating shipping label for order " + orderId);
     }
+
+    public void undoGenerateShippingLabel(String orderId) {
+        System.out.println("Undo generating shipping label for order " + orderId);
+    }
 }
